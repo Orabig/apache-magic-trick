@@ -16,7 +16,7 @@ The Apache error log may have more information.
 
 ## Magic trick 
 
-**Add or remove** ANY character inside the LogFormat definition and *Puff* : no more error !!!
+Edit `buggy.conf`file : **Add or remove** ANY character inside the LogFormat definition and *Puff* : no more error !!!
 
 (For information : this configuration file should work : LogFormat may contain any string, and `{ ... }` is not supposed to be interpreted : https://httpd.apache.org/docs/current/fr/mod/mod_log_config.html )
 
